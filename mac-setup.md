@@ -100,4 +100,23 @@ vim的配置暂时使用k-vim的配置。
 
 	alias vi='mvim -v'
 	alias vim='mvim -v'
+	
+----------------------------
 
+## Python 环境安装
+
+先安装一些依赖
+	
+	$ brew install readline sqlite gdbm pkg-config
+
+再安装python
+
+	$ brew install python
+	
+最后修改`.zshrc`
+
+	$ export PATH=/usr/local/bin/python:$PATH
+	
+安装ipython
+
+	$ sudo pip install ipython
